@@ -52,7 +52,7 @@ func newUserMongoRepository() *UserMongoRepository {
 		utils.LogFatal("Error loading .env file: ", err)
 	}
 
-	collection := mongoClient.Database(os.Getenv("LYDIA_DB_NAME")).Collection("users")
+	collection := mongoClient.Database(os.Getenv("DB_NAME")).Collection("users")
 
 	return &UserMongoRepository{
 		client:     mongoClient,

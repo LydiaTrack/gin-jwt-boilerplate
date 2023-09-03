@@ -8,9 +8,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// @title Lydia Track Base API
+// @title Main API
 // @version 0.0.1
-// @description Lydia Track Base API
+// @description Main API
 
 // @host localhost:8080
 // @BasePath /
